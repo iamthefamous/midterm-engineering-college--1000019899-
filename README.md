@@ -8,9 +8,9 @@ The site consists of the following pages:
 
 - **Home (`index.html`)**: The main landing page with a hero section, key highlights, and recent news.
 - **About (`about.html`)**: Information about the college's mission, history, and values.
-- **Departments (`departments.html`)**: A filterable list of academic departments and programs offered.
-- **Faculty (`faculty.html`)**: Profiles of key faculty members.
-- **Research (`research.html`)**: Highlights of research projects and an FAQ section.
+- **Departments (`departments.html`)**: A filterable list of academic departments and programs offered. (Additional Page)
+- **Faculty (`faculty.html`)**: Profiles of key faculty members.(Additional Page)
+- **Research (`research.html`)**: Highlights of research projects and an FAQ section.(Additional Page)
 - **Registration (`registration.html`)**: A comprehensive form for prospective students to register their interest.
 - **Admissions, Contact, etc.**: Other pages are linked in the navigation, forming a complete site structure.
 
