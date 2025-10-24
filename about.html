@@ -1,88 +1,55 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Engineering College - About</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/png" href="favicon.png">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — Engineering College</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-    <div class="container">
-        <a class="navbar-brand" href="index.html">Engineering College</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="admissions.html">Admissions</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="student-life.html">Student Life</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="registration.html">Register</a>
-                </li>
-            </ul>
-        </div>
+  <!-- header (same as index) -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><img src="assets/images/logo.svg" alt=""><span class="brand-text">Engineering College</span></a>
+      <button class="nav-toggle" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">☰</button>
+      <nav id="main-nav" class="main-nav" role="navigation"><ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" aria-current="page">About</a></li>
+        <li><a href="departments.html">Departments</a></li>
+        <li><a href="admissions.html">Admissions</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="faculty.html">Faculty</a></li>
+        <li><a href="registration.html">Registration</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul></nav>
     </div>
-</nav>
+  </header>
 
-<main class="container py-5 mt-5">
-    <section>
-        <h1 class="text-center mb-4">About Engineering College</h1>
-        <p>Founded in 1990, Engineering College is dedicated to fostering innovation and excellence in engineering education. Our mission is to prepare students for successful careers through rigorous academics and hands-on learning.</p>
+  <main id="main" class="site-main" tabindex="-1">
+    <section class="container about-hero">
+      <h1>About Engineering College</h1>
+      <p class="lead">A place of rigorous learning, practical engineering training, and research excellence.</p>
     </section>
-    <section class="mt-5">
-        <h2>Our Programs</h2>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h3 class="card-title">Computer Engineering</h3>
-                        <p class="card-text">Dive into software development, AI, and systems design with cutting-edge tools and methodologies.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h3 class="card-title">Mechanical Engineering</h3>
-                        <p class="card-text">Explore robotics, thermodynamics, and sustainable design in state-of-the-art labs.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h3 class="card-title">Civil Engineering</h3>
-                        <p class="card-text">Build the future with expertise in infrastructure, environmental engineering, and urban planning.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+
+    <section class="container content">
+      <h2>Mission & Vision</h2>
+      <p>Our mission is to educate engineers who are ready to lead in industry and research, with ethics, creativity and technical excellence.</p>
+
+      <h2>History</h2>
+      <p>Founded with the goal of serving the region’s growing engineering needs, the college has expanded its labs, faculty and programs over the decades to cover modern fields.</p>
+
+      <h2>Core values</h2>
+      <ul>
+        <li>Academic excellence</li>
+        <li>Hands-on learning</li>
+        <li>Community engagement</li>
+      </ul>
     </section>
-</main>
+  </main>
 
-<footer class="bg-dark text-white py-4">
-    <div class="container text-center">
-        <p>&copy; 2025 Engineering College. All rights reserved.</p>
-    </div>
-</footer>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="scripts.js"></script>
+  <footer class="site-footer">
+    <div class="container"><p>© 2025 Engineering College</p></div>
+  </footer>
 </body>
 </html>

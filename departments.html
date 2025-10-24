@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Departments — Engineering College</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><img src="assets/images/logo.svg" alt=""><span class="brand-text">Engineering College</span></a>
+      <button class="nav-toggle" aria-controls="main-nav" aria-expanded="false">☰</button>
+      <nav id="main-nav" class="main-nav"><ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="departments.html" aria-current="page">Departments</a></li>
+        <li><a href="admissions.html">Admissions</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="faculty.html">Faculty</a></li>
+        <li><a href="registration.html">Registration</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul></nav>
+    </div>
+  </header>
+
+  <main id="main" class="site-main" tabindex="-1">
+    <section class="container">
+      <h1>Departments</h1>
+      <p class="lead">Choose your program. Use the filter to quickly find keywords.</p>
+
+      <label for="programFilter" class="sr-only">Filter departments</label>
+      <input id="programFilter" class="form-input" type="search" placeholder="Filter departments, e.g., robotics, civil, power">
+
+      <div class="grid cols-3 dept-grid" id="deptGrid">
+        <article class="program-card" data-keywords="computer software robotics ai">
+          <h3>Computer Engineering</h3>
+          <p>Focus on computing systems, embedded systems and AI.</p>
+          <a class="link-inline" href="registration.html">Apply</a>
+        </article>
+
+        <article class="program-card" data-keywords="electrical power circuits electronics">
+          <h3>Electrical Engineering</h3>
+          <p>Power systems, control, signals and electronics.</p>
+          <a class="link-inline" href="registration.html">Apply</a>
+        </article>
+
+        <article class="program-card" data-keywords="mechanical thermal manufacturing robotics">
+          <h3>Mechanical Engineering</h3>
+          <p>Design, manufacturing, thermodynamics and robotics.</p>
+          <a class="link-inline" href="registration.html">Apply</a>
+        </article>
+
+        <article class="program-card" data-keywords="civil structures geotech transport">
+          <h3>Civil Engineering</h3>
+          <p>Structures, geotechnical and transportation engineering.</p>
+          <a class="link-inline" href="registration.html">Apply</a>
+        </article>
+
+        <article class="program-card" data-keywords="chemical materials process">
+          <h3>Chemical Engineering</h3>
+          <p>Materials, processes and sustainable engineering.</p>
+          <a class="link-inline" href="registration.html">Apply</a>
+        </article>
+
+        <article class="program-card" data-keywords="enviro environmental sustainability water">
+          <h3>Environmental Engineering</h3>
+          <p>Water, sustainability, and environmental protection.</p>
+          <a class="link-inline" href="registration.html">Apply</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container"><p>© 2025 Engineering College</p></div>
+  </footer>
+</body>
+</html>
