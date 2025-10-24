@@ -28,6 +28,11 @@ body{
   line-height:1.5;
 }
 
+/* main content */
+.site-main {
+  padding-top: 65px; /* Account for fixed header height */
+}
+
 /* container */
 .container{max-width:var(--max-width);margin:0 auto;padding:1rem}
 
